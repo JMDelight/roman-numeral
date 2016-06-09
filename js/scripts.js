@@ -12,8 +12,12 @@ var convertor = function(number) {
   for(i=1; i<=4; i++) {
     var workingNumber = parseInt(numberArray[i]);
     if (workingNumber === 9) {
-      result = result + numerals[i-1] + numerals[i-2]
-      workingNumber-= 9
+      result = result + numerals[i-1] + numerals[i-2];
+      workingNumber-= 9;
+    } else if (workingNumber === 4) {
+      result = result + numerals[i-1] + numerals[i+2];
+      workingNumber -=4;
+
     }
     else {
       for (index = workingNumber; index > 0; index -- ) {
