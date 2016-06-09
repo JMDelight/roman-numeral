@@ -31,9 +31,9 @@ _{Let people know what to do if they run into any issues or have questions, idea
 _inputs requiring a single numeral: 1000 - M_
 _inputs requiring addition: 2000 - MM_
 _inputs including 2 non zero digits: 1100 - MC_
-_inputs requiring subtraction: 900 - CM_
-_inputs including 2 non zero digits with addition: 1200 - MCC_
-_inputs inputs with 3 or 4 digits of note: 1111 - MCXI_
+_inputs including a 9: 900 - CM_
+_inputs including input including a 4: 400 - CD_
+_inputs including number 5-8: 600 - DC_
 _inputs beyond our range(0-3999): -5 - error message before submission_
 _non-number inputs: Bob - error message before submission_
 
